@@ -1,0 +1,44 @@
+===============================================
+Jupyter Notebook is Running!
+===============================================
+
+Status: ACTIVE
+
+Server URL:
+http://localhost:8888/tree?token=772b3b58506b87fc4ea62a45925ee271b84c94b20bfa0235
+
+Or:
+http://127.0.0.1:8888/tree?token=772b3b58506b87fc4ea62a45925ee271b84c94b20bfa0235
+
+Notebook File:
+unemployment_analysis.ipynb
+
+Kernel Available:
+- unemployment_analysis ("Unemployment Analysis (Task2)")
+
+All Packages Installed:
+✓ pandas 3.1.0
+✓ numpy 2.5.4
+✓ matplotlib 3.11.2
+✓ seaborn 0.13.2
+✓ jupyter 1.1.1
+✓ notebook 7.6.4
+
+===============================================
+How to Use
+===============================================
+
+1. Your browser should open automatically
+2. If not, copy the URL above into your browser
+3. The notebook will load automatically
+4. Check top-right corner for kernel name: "Unemployment Analysis (Task2)"
+5. If wrong kernel, click: Kernel → Change Kernel → "Unemployment Analysis (Task2)"
+6. Click: Cell → Run All
+7. Watch the analysis execute!
+
+To Stop Server:
+Press Ctrl+C in the terminal window
+
+===============================================
+Ready to Analyze!
+===============================================
