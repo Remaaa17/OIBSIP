@@ -170,4 +170,4 @@ This project is part of the Oasis Infobyte Data Science Internship program.
 
 ---
 
-**Tags:** #datascience #dataanalysis #python #covid19 #unemployment #eda #visualization #oasisinfobyte
+**Keywords**: Data Science, Data Analysis, Python, Unemployment Analysis, COVID-19 Impact, Economic Research

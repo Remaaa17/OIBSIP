@@ -44,4 +44,5 @@ Train a classification model to predict iris species based on sepal and petal me
 **Organization**: Oasis Infobyte Internship
 
 ---
-#oasisinfobyte #datascience #machinelearning #classification #python
+
+**Keywords**: Machine Learning, Classification, Data Science, Python, Scikit-learn, Iris Dataset

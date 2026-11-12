@@ -139,4 +139,4 @@ DataScience-Task3-CarPricePrediction/
 
 ---
 
-**Tags:** #datascience #machinelearning #regression #carprice #python #sklearn #oasisinfobyte
+**Keywords**: Machine Learning, Regression Analysis, Data Science, Python, Scikit-learn, Automotive Pricing

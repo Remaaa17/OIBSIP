@@ -77,4 +77,5 @@ Results will be documented in the notebook showing:
 This project is part of the Oasis Infobyte Data Science Internship program.
 
 ---
-#oasisinfobyte #datascience #machinelearning #python #internship
+
+**Keywords**: Machine Learning, Data Science, Python, Marketing Analytics, Sales Forecasting

@@ -203,7 +203,7 @@ Each task requires:
 -  Complete Jupyter notebook with all features
 -  Demo video (2-sec title card + walkthrough)
 -  GitHub push to OIBSIP repository
--  LinkedIn post with #oasisinfobyte
+-  LinkedIn post with relevant professional tags
 -  Peer engagement (2+ substantive comments)
 
 ---
@@ -258,5 +258,6 @@ This project is part of the Oasis Infobyte Data Science Internship program.
 
 ---
 
-#oasisinfobyte #datascience #machinelearning #python #internship
+**Keywords**: Data Science, Machine Learning, Python, Statistical Analysis, Data Visualization
 
+**Organization**: Oasis Infobyte Internship Program
