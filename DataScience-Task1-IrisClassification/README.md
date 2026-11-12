@@ -1,19 +1,19 @@
 # Iris Flower Classification
 
-## 📊 Project Overview
+##  Project Overview
 Machine learning classification model to identify iris flower species (Setosa, Versicolor, or Virginica) from physical measurements.
 
-## 🎯 Objective
+##  Objective
 Train a classification model to predict iris species based on sepal and petal measurements.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Python 3.x**
 - **scikit-learn** - Machine learning models
 - **pandas** - Data manipulation
 - **matplotlib/seaborn** - Visualization
 - **Jupyter Notebook** - Development environment
 
-## 📋 Feature Checklist
+##  Feature Checklist
 - [x] Load Iris dataset from sklearn.datasets
 - [x] Exploratory Data Analysis (EDA)
 - [x] Visualizations (pairplot, box plots)
@@ -24,19 +24,19 @@ Train a classification model to predict iris species based on sepal and petal me
 - [x] Identify best-performing model
 - [x] Clean, commented Jupyter Notebook
 
-## 📈 Dataset Features
+##  Dataset Features
 - **Sepal Length** (cm)
 - **Sepal Width** (cm)
 - **Petal Length** (cm)
 - **Petal Width** (cm)
 - **Species** (Target): Setosa, Versicolor, Virginica
 
-## 🚀 How to Run
+##  How to Run
 1. Install packages: `pip install -r requirements.txt`
 2. Open notebook: `jupyter notebook iris_classification.ipynb`
 3. Run all cells sequentially
 
-## 👤 Author
+##  Author
 **Eng. Reem Osama**
 
 **Track**: Data Science  

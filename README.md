@@ -4,7 +4,7 @@
 [![Python](https://img.shields.io/badge/Python-3.8%2B-green)](https://www.python.org/)
 [![Status](https://img.shields.io/badge/Status-In%20Progress-yellow)](https://github.com)
 
-## 👨‍💻 Intern Information
+## ‍ Intern Information
 - **Name**: Eng. Reem Osama
 - **Track**: Data Science
 - **Organization**: Oasis Infobyte
@@ -13,15 +13,15 @@
 
 ---
 
-## 📚 Project List
+##  Project List
 
-### ✅ Completed Tasks
+###  Completed Tasks
 <!-- Update as you complete each task -->
 
 ---
 
-### 🌸 Task 1: Iris Flower Classification
-**Status**: Setup Complete ✅ | In Progress ⏳ | Completed ✅
+###  Task 1: Iris Flower Classification
+**Status**: Setup Complete  | In Progress ⏳ | Completed 
 
 Machine learning classification model to identify iris flower species from physical measurements.
 
@@ -32,8 +32,8 @@ Machine learning classification model to identify iris flower species from physi
 
 ---
 
-### 📉 Task 2: Unemployment Analysis with Python  
-**Status**: Setup Complete ✅ | In Progress ⏳ | Completed ✅
+###  Task 2: Unemployment Analysis with Python  
+**Status**: Setup Complete  | In Progress ⏳ | Completed 
 
 Exploratory data analysis focusing on COVID-19's impact on unemployment in India.
 
@@ -44,8 +44,8 @@ Exploratory data analysis focusing on COVID-19's impact on unemployment in India
 
 ---
 
-### 🚗 Task 3: Car Price Prediction
-**Status**: Setup Complete ✅ | In Progress ⏳ | Completed ✅
+###  Task 3: Car Price Prediction
+**Status**: Setup Complete  | In Progress ⏳ | Completed 
 
 Regression model to predict used car selling prices.
 
@@ -56,8 +56,8 @@ Regression model to predict used car selling prices.
 
 ---
 
-### 📧 Task 4: Email Spam Detection
-**Status**: Setup Complete ✅ | In Progress ⏳ | Completed ✅
+###  Task 4: Email Spam Detection
+**Status**: Setup Complete  | In Progress ⏳ | Completed 
 
 NLP binary classifier to detect spam emails using text processing.
 
@@ -68,8 +68,8 @@ NLP binary classifier to detect spam emails using text processing.
 
 ---
 
-### 📈 Task 5: Sales Prediction Using Python
-**Status**: Setup Complete ✅ | In Progress ⏳ | Completed ✅
+###  Task 5: Sales Prediction Using Python
+**Status**: Setup Complete  | In Progress ⏳ | Completed 
 
 Regression model predicting sales based on advertising spend.
 
@@ -80,7 +80,7 @@ Regression model predicting sales based on advertising spend.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Core Technologies:**
 - Python 3.8+
@@ -96,46 +96,46 @@ Regression model predicting sales based on advertising spend.
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 OIBSIP/
-│
-├── DataScience-Task1-IrisClassification/
-│   ├── iris_classification.ipynb
-│   ├── README.md
-│   └── requirements.txt
-│
-├── DataScience-Task2-UnemploymentAnalysis/
-│   ├── unemployment_analysis.ipynb
-│   ├── README.md
-│   └── requirements.txt
-│
-├── DataScience-Task3-CarPricePrediction/
-│   ├── car_price_prediction.ipynb
-│   ├── README.md
-│   └── requirements.txt
-│
-├── DataScience-Task4-EmailSpamDetection/
-│   ├── email_spam_detection.ipynb
-│   ├── README.md
-│   └── requirements.txt
-│
-├── DataScience-Task5-SalesPrediction/
-│   ├── sales_prediction.ipynb
-│   ├── README.md
-│   ├── requirements.txt
-│   └── SETUP_GUIDE.md
-│
-├── PROJECT_OVERVIEW.md
-├── MASTER_CHECKLIST.md
-├── IMPORTANT_REPOSITORY_NAME.md
-└── README.md (this file)
+
+ DataScience-Task1-IrisClassification/
+    iris_classification.ipynb
+    README.md
+    requirements.txt
+
+ DataScience-Task2-UnemploymentAnalysis/
+    unemployment_analysis.ipynb
+    README.md
+    requirements.txt
+
+ DataScience-Task3-CarPricePrediction/
+    car_price_prediction.ipynb
+    README.md
+    requirements.txt
+
+ DataScience-Task4-EmailSpamDetection/
+    email_spam_detection.ipynb
+    README.md
+    requirements.txt
+
+ DataScience-Task5-SalesPrediction/
+    sales_prediction.ipynb
+    README.md
+    requirements.txt
+    SETUP_GUIDE.md
+
+ PROJECT_OVERVIEW.md
+ MASTER_CHECKLIST.md
+ IMPORTANT_REPOSITORY_NAME.md
+ README.md (this file)
 ```
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Clone Repository
 ```bash
@@ -163,21 +163,21 @@ jupyter notebook
 
 ---
 
-## 📊 Progress Tracking
+##  Progress Tracking
 
 | Task | Status | Demo Video | LinkedIn Post | GitHub |
 |------|--------|------------|---------------|--------|
-| 1. Iris Classification | ⬜ | ⬜ | ⬜ | ⬜ |
-| 2. Unemployment Analysis | ⬜ | ⬜ | ⬜ | ⬜ |
-| 3. Car Price Prediction | ⬜ | ⬜ | ⬜ | ⬜ |
-| 4. Email Spam Detection | ⬜ | ⬜ | ⬜ | ⬜ |
-| 5. Sales Prediction | ⬜ | ⬜ | ⬜ | ⬜ |
+| 1. Iris Classification |  |  |  |  |
+| 2. Unemployment Analysis |  |  |  |  |
+| 3. Car Price Prediction |  |  |  |  |
+| 4. Email Spam Detection |  |  |  |  |
+| 5. Sales Prediction |  |  |  |  |
 
-**Legend**: ⬜ Not Started | ⏳ In Progress | ✅ Completed
+**Legend**:  Not Started | ⏳ In Progress |  Completed
 
 ---
 
-## 📝 Key Learnings
+##  Key Learnings
 
 ### Technical Skills Acquired
 - Machine Learning (Classification & Regression)
@@ -197,18 +197,18 @@ jupyter notebook
 
 ---
 
-## 🎯 Submission Requirements
+##  Submission Requirements
 
 Each task requires:
-- ✅ Complete Jupyter notebook with all features
-- ✅ Demo video (2-sec title card + walkthrough)
-- ✅ GitHub push to OIBSIP repository
-- ✅ LinkedIn post with #oasisinfobyte
-- ✅ Peer engagement (2+ substantive comments)
+-  Complete Jupyter notebook with all features
+-  Demo video (2-sec title card + walkthrough)
+-  GitHub push to OIBSIP repository
+-  LinkedIn post with #oasisinfobyte
+-  Peer engagement (2+ substantive comments)
 
 ---
 
-## 🔗 Connect
+##  Connect
 
 - **LinkedIn**: [Eng. Reem Osama LinkedIn Profile]
 - **GitHub**: https://github.com/Remaaa17
@@ -216,13 +216,13 @@ Each task requires:
 
 ---
 
-## 📄 License
+##  License
 
 This project is part of the Oasis Infobyte Data Science Internship program.
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Oasis Infobyte** for the internship opportunity
 - **Kaggle** for datasets
@@ -231,19 +231,19 @@ This project is part of the Oasis Infobyte Data Science Internship program.
 
 ---
 
-## 📌 Important Notes
+##  Important Notes
 
-⚠️ **GitHub Repository Name**: Must be exactly **OIBSIP** (no dashes)
+ **GitHub Repository Name**: Must be exactly **OIBSIP** (no dashes)
 
-⚠️ **Folder Naming**: Must follow strict format: `DataScience-Task[X]-[ProjectName]`
+ **Folder Naming**: Must follow strict format: `DataScience-Task[X]-[ProjectName]`
 
-⚠️ **Video Requirement**: First 2 seconds must show title card with Name + Track + Task
+ **Video Requirement**: First 2 seconds must show title card with Name + Track + Task
 
-⚠️ **Completion**: Minimum 3 tasks required; aiming for 5 tasks
+ **Completion**: Minimum 3 tasks required; aiming for 5 tasks
 
 ---
 
-## 📚 Additional Resources
+##  Additional Resources
 
 - **Task Requirements**: See `OASIS INFOBYTE — Task List.pdf`
 - **Complete Checklist**: See `MASTER_CHECKLIST.md`
@@ -254,7 +254,7 @@ This project is part of the Oasis Infobyte Data Science Internship program.
 
 **Last Updated**: October 2026
 
-**Status**: Projects setup complete ✅ | Development in progress ⏳
+**Status**: Projects setup complete  | Development in progress ⏳
 
 ---
 

@@ -1,6 +1,6 @@
-# Jupyter Notebook
-.ipynb_checkpoints/
-*/.ipynb_checkpoints/*
+# Data files
+*.csv
+Advertising.csv
 
 # Python
 __pycache__/
@@ -8,21 +8,19 @@ __pycache__/
 *$py.class
 *.so
 .Python
-
-# Virtual Environment
-venv/
 env/
-ENV/
+venv/
+.venv/
+*.egg-info/
 
-# Dataset (optional - comment out if you want to include it)
-# *.csv
-
-# OS
-.DS_Store
-Thumbs.db
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
 
 # IDE
 .vscode/
 .idea/
-*.swp
-*.swo
+
+# OS
+.DS_Store
+Thumbs.db

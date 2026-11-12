@@ -1,0 +1,40 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+unemployment_env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Data files (optional - uncomment if you don't want to commit the dataset)
+# *.csv
+# Unemployment_in_India.csv
+
+# Logs
+*.log
+
+# Distribution
+dist/
+build/
+*.egg-info/

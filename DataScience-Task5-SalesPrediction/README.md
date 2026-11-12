@@ -1,12 +1,12 @@
 # Sales Prediction Using Python
 
-## 📊 Project Overview
+##  Project Overview
 This project builds a regression model to predict product sales based on advertising spend across different media channels (TV, Radio, Newspaper).
 
-## 🎯 Objective
+##  Objective
 Build a regression model that predicts product sales based on advertising spend across different media channels.
 
-## 🛠️ Tech Stack
+##  Tech Stack
 - **Python 3.x**
 - **pandas** - Data manipulation and analysis
 - **scikit-learn** - Machine learning models and evaluation
@@ -14,7 +14,7 @@ Build a regression model that predicts product sales based on advertising spend 
 - **seaborn** - Statistical data visualization
 - **Jupyter Notebook** - Interactive development environment
 
-## 📋 Feature Checklist
+##  Feature Checklist
 - [x] Data loading and EDA: null check, descriptive statistics, pairplot of all features
 - [x] Individual scatter plots: Sales vs. TV spend, Sales vs. Radio spend, Sales vs. Newspaper spend
 - [x] Correlation matrix heatmap
@@ -26,7 +26,7 @@ Build a regression model that predicts product sales based on advertising spend 
 - [x] Interpretation: which advertising channel has the highest impact on sales?
 - [x] Clean, well-commented Jupyter Notebook
 
-## 📁 Dataset
+##  Dataset
 The dataset used is the classic "Advertising.csv" dataset containing:
 - **TV**: Advertising spend on TV (in thousands of dollars)
 - **Radio**: Advertising spend on Radio (in thousands of dollars)
@@ -35,7 +35,7 @@ The dataset used is the classic "Advertising.csv" dataset containing:
 
 **Source**: Available on Kaggle or from various ML repositories
 
-## 🚀 How to Run
+##  How to Run
 1. Install required packages:
    ```bash
    pip install pandas numpy scikit-learn matplotlib seaborn jupyter
@@ -50,30 +50,30 @@ The dataset used is the classic "Advertising.csv" dataset containing:
 
 4. Run all cells sequentially
 
-## 📈 Models Used
+##  Models Used
 1. **Linear Regression** (Baseline model)
 2. **Random Forest Regressor** (Advanced model)
 3. **Polynomial Regression** (Optional enhancement)
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 - **MAE** (Mean Absolute Error): Average absolute difference between predicted and actual values
 - **RMSE** (Root Mean Squared Error): Square root of average squared differences
 - **R² Score**: Proportion of variance explained by the model (0 to 1, higher is better)
 
-## 💡 Key Insights
+##  Key Insights
 Results will be documented in the notebook showing:
 - Which advertising channel has the highest impact on sales
 - Model performance comparison
 - Prediction accuracy
 
-## 👤 Author
+##  Author
 **Eng. Reem Osama**
 
 **Track**: Data Science  
 **Task**: Task 5 - Sales Prediction Using Python  
 **Organization**: Oasis Infobyte Internship
 
-## 📝 License
+##  License
 This project is part of the Oasis Infobyte Data Science Internship program.
 
 ---
