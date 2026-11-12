@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Price Prediction - Demo Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .card {
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            margin-bottom: 20px;
+            animation: fadeIn 0.6s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 48px;
+            color: #667eea;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .author {
+            font-size: 24px;
+            color: #764ba2;
+            margin-bottom: 5px;
+        }
+
+        .track {
+            font-size: 18px;
+            color: #666;
+        }
+
+        .hero-text {
+            font-size: 28px;
+            color: #333;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .hero-price {
+            font-size: 64px;
+            font-weight: 700;
+            color: #667eea;
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .section {
+            margin: 40px 0;
+        }
+
+        .section-title {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 20px;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .pipeline {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 30px 0;
+        }
+
+        .pipeline-step {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px 30px;
+            border-radius: 15px;
+            font-weight: 600;
+            font-size: 18px;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .pipeline-step:hover {
+            transform: translateY(-5px);
+        }
+
+        .arrow {
+            color: #667eea;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .feature-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .feature-box h3 {
+            color: #667eea;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .models-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .model-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+            transition: transform 0.3s ease;
+        }
+
+        .model-card:hover {
+            transform: scale(1.05);
+        }
+
+        .metrics {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .metric-box {
+            background: white;
+            border: 3px solid #667eea;
+            padding: 25px;
+            border-radius: 15px;
+            text-align: center;
+            min-width: 150px;
+        }
+
+        .metric-value {
+            font-size: 36px;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .metric-label {
+            color: #666;
+            font-size: 16px;
+        }
+
+        .tech-stack {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .tech-badge {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: 600;
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .cta {
+            text-align: center;
+            margin-top: 40px;
+            padding: 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 15px;
+            color: white;
+        }
+
+        .cta h2 {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        .cta p {
+            font-size: 18px;
+            opacity: 0.9;
+        }
+
+        .footer {
+            text-align: center;
+            color: white;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 36px;
+            }
+            
+            .hero-price {
+                font-size: 48px;
+            }
+            
+            .section-title {
+                font-size: 24px;
+            }
+            
+            .pipeline {
+                flex-direction: column;
+            }
+            
+            .arrow {
+                transform: rotate(90deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="header">
+                <div class="author">Reem Osama Said</div>
+                <div class="track">Track: Data Science</div>
+                <h1>🚗 Car Price Prediction</h1>
+                <p class="subtitle">Machine learning model that predicts used car prices</p>
+            </div>
+
+            <div class="section">
+                <p class="hero-text">What's my car really worth?</p>
+                <div class="hero-price">₹ ?</div>
+                <p class="subtitle">A machine learning model that predicts a car's price from its features</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">From Raw Data to Smart Predictions</h2>
+                <div class="pipeline">
+                    <div class="pipeline-step">Data</div>
+                    <span class="arrow">→</span>
+                    <div class="pipeline-step">Cleaning</div>
+                    <span class="arrow">→</span>
+                    <div class="pipeline-step">Features</div>
+                    <span class="arrow">→</span>
+                    <div class="pipeline-step">Model</div>
+                    <span class="arrow">→</span>
+                    <div class="pipeline-step">Price</div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">What Drives a Car's Price?</h2>
+                <div class="features-grid">
+                    <div class="feature-box">
+                        <h3>Brand</h3>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Model Year</h3>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Mileage</h3>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Fuel Type</h3>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Engine Size</h3>
+                    </div>
+                    <div class="feature-box">
+                        <h3>Transmission</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Training and Comparing Models</h2>
+                <div class="models-grid">
+                    <div class="model-card">
+                        <h3>Linear Regression</h3>
+                    </div>
+                    <div class="model-card">
+                        <h3>Random Forest</h3>
+                    </div>
+                    <div class="model-card">
+                        <h3>Gradient Boosting</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Measuring Accuracy</h2>
+                <div class="features-grid">
+                    <div class="feature-box">
+                        <h3>R² Score</h3>
+                    </div>
+                    <div class="feature-box">
+                        <h3>MAE</h3>
+                    </div>
+                    <div class="feature-box">
+                        <h3>RMSE</h3>
+                    </div>
+                </div>
+                <p class="subtitle">Train/test split to check how well it predicts unseen cars</p>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Dataset Overview</h2>
+                <div class="metrics">
+                    <div class="metric-box">
+                        <div class="metric-value">2,059</div>
+                        <div class="metric-label">Vehicles</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value">20</div>
+                        <div class="metric-label">Features</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value">63%</div>
+                        <div class="metric-label">R² Score</div>
+                    </div>
+                    <div class="metric-box">
+                        <div class="metric-value">₹476K</div>
+                        <div class="metric-label">Avg Error</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <h2 class="section-title">Built With Python</h2>
+                <div class="tech-stack">
+                    <span class="tech-badge">Python</span>
+                    <span class="tech-badge">Pandas</span>
+                    <span class="tech-badge">NumPy</span>
+                    <span class="tech-badge">Scikit-learn</span>
+                    <span class="tech-badge">Matplotlib</span>
+                </div>
+            </div>
+
+            <div class="cta">
+                <h2>Let's see it in action</h2>
+                <p>Reem Osama Said · Data Science Portfolio</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            Task 3: Car Price Prediction | Oasis Infobyte Data Science Internship
+        </div>
+    </div>
+</body>
+</html>
