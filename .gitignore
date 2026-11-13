@@ -6,6 +6,12 @@
 *.flv
 *.mkv
 
+# Zip/Archive files
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
 # Python
 __pycache__/
 *.py[cod]
